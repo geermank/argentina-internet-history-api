@@ -13,6 +13,7 @@ import {
     ninthParagraph
 } from "./early-yeras-strings";
 import { verticalSpace, Space } from "../../sdui/components/spacing/verticalSpace";
+import { timeline, timelineMilestone } from "../../sdui/components/timeline/timeline";
 
 export default function handler(req, res) {
     res.setHeader("Access-Control-Allow-Origin", "*");
@@ -31,11 +32,26 @@ export default function handler(req, res) {
                     ]
                 ),
                 title("Early years (1994 - 2005)"),
+                verticalSpace(Space.Sm),
+                subtitle("In a nutshell"),
+                timeline(
+                    [
+                        timelineMilestone("1987", "First international email connection"),
+                        timelineMilestone("1990", "First TCP/IP Internet connection"),
+                        timelineMilestone("1993", "Creation of RETINA network"),
+                        timelineMilestone("1994", "First submarine fiber-optic cable and digital connection"),
+                        timelineMilestone("1995", "Internet access goes commercial"),
+                        timelineMilestone("1997", "National interest declaration and broadband launch"),
+                        timelineMilestone("2000", "Rise of free ISPs"),
+                    ]
+                ),
+                verticalSpace(Space.Sm),
+                subtitle("Laying the Foundations"),
                 paragraph(firstParagraph),
                 paragraph(secondParagraph),
                 paragraph(thirdParagraph),
                 paragraph(fourthParagraph),
-                verticalSpace(Space.Md),
+                verticalSpace(Space.Sm),
                 subtitle("Commercial connections and beyond"),
                 paragraph(fifthParagrah),
                 paragraph(sixthParagraph),

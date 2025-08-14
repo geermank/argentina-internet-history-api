@@ -8,6 +8,15 @@ export function title(value) {
     };
 }
 
+export function subtitle(value) {
+    return {
+        type: "subtitle",
+        data: {
+            text: value
+        }
+    };
+}
+
 export function paragraph(value) {
     return {
         type: "paragraph",

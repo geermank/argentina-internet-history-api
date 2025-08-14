@@ -32,21 +32,14 @@ export default function handler(req, res) {
                 ),
                 title("Early years (1994 - 2005)"),
                 paragraph(firstParagraph),
-                verticalSpace(Space.Md),
                 paragraph(secondParagraph),
-                verticalSpace(Space.Md),
                 paragraph(thirdParagraph),
-                verticalSpace(Space.Md),
                 paragraph(fourthParagraph),
                 subtitle("Commercial connections and beyond"),
                 paragraph(fifthParagrah),
-                verticalSpace(Space.Md),
                 paragraph(sixthParagraph),
-                verticalSpace(Space.Md),
                 paragraph(seventhParagraph),
-                verticalSpace(Space.Md),
                 paragraph(eighthParagraph),
-                verticalSpace(Space.Md),
                 paragraph(ninthParagraph)
             ]
         )

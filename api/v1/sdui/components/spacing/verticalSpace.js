@@ -1,8 +1,8 @@
 export const Space = {
-    Sm: '2',
-    Md: '4',
-    Lg: '8',
-    Xl: '16'
+    Sm: '4',
+    Md: '8',
+    Lg: '16',
+    Xl: '32'
 }
 
 export function verticalSpace(value) {

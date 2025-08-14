@@ -6,7 +6,8 @@ export {
     fifthParagrah,
     sixthParagraph,
     seventhParagraph,
-    eighthParagrap
+    eighthParagraph,
+    ninthParagraph
  }
 
 const firstParagraph =
@@ -43,10 +44,10 @@ const fifthParagrah =
 const sixthParagraph =
     `Fast forward to the year 1997, the national government declared that access to the worldwide internet for the inhabitants 
     of the Argentine Republic was a matter of national interest. This same year, Fibertel (an Argentinian ISP) started selling the first
-    broadband connections.`
+    cable modem broadband connections.`
 
 const seventhParagraph =
-    `In 1999, the Atlantis II submarine cable is deployed, connecting Argentina and Uruguay, Brasil, Senegal, Islas Cabo Verde, España and  
+    `In 1999, the Atlantis II submarine cable was deployed, connecting Argentina and Uruguay, Brasil, Senegal, Islas Cabo Verde, España and  
     Portugal. Other submarine cables were deployed in the following years, such as SAC in 2000 and SAM 1 in 2001. `
 
 const eighthParagraph =
@@ -54,4 +55,7 @@ const eighthParagraph =
     the fees that users paid to telephone companies. In this way, users paid for the telephone pulses but not for a monthly dial-up 
     internet subscription, as broadband internet users did. However, even though it was a good alternative due to its low cost (especially 
     considering the difficult economic situation the country faced in the early 2000s), it had many drawbacks, particularly in terms of speed. 
-    As a result, broadband connections began to rise, and by 2005 both types of technologies shared the market equally`
+    As a result, broadband connections began to rise, and by 2005 both types of technologies shared the market equally.`
+
+const ninthParagraph = 
+    `In summary, by 2005, Argentina had transitioned from an academic network to a country where both broadband and dial-up coexisted at scale.`

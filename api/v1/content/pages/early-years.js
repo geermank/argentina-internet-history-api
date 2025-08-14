@@ -10,7 +10,8 @@ import {
     fifthParagrah, 
     sixthParagraph, 
     seventhParagraph, 
-    eighthParagraph
+    eighthParagraph,
+    ninthParagraph
 } from "./early-yeras-strings";
 
 export default function handler(req, res) {
@@ -44,7 +45,9 @@ export default function handler(req, res) {
                 verticalSpace(Space.Md),
                 paragraph(seventhParagraph),
                 verticalSpace(Space.Md),
-                paragraph(eighthParagraph)
+                paragraph(eighthParagraph),
+                verticalSpace(Space.Md),
+                paragraph(ninthParagraph)
             ]
         )
     );

@@ -12,6 +12,7 @@ import {
     eighthParagraph,
     ninthParagraph
 } from "./early-yeras-strings";
+import { verticalSpace } from "../../sdui/components/spacing/verticalSpace";
 
 export default function handler(req, res) {
     res.setHeader("Access-Control-Allow-Origin", "*");
@@ -34,6 +35,7 @@ export default function handler(req, res) {
                 paragraph(secondParagraph),
                 paragraph(thirdParagraph),
                 paragraph(fourthParagraph),
+                verticalSpace(Space.Md),
                 subtitle("Commercial connections and beyond"),
                 paragraph(fifthParagrah),
                 paragraph(sixthParagraph),

@@ -12,7 +12,7 @@ import {
     eighthParagraph,
     ninthParagraph
 } from "./early-yeras-strings";
-import { verticalSpace } from "../../sdui/components/spacing/verticalSpace";
+import { verticalSpace, Space } from "../../sdui/components/spacing/verticalSpace";
 
 export default function handler(req, res) {
     res.setHeader("Access-Control-Allow-Origin", "*");

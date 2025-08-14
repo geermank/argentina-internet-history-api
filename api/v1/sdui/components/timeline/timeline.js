@@ -7,9 +7,9 @@ export function timeline(milestones) {
     }
 }
 
-export function timelineMilestone(year, text) {
+export function timelineMilestone(first, second) {
     return {
-        year: year,
-        text: text
+        first: first,
+        second: second
     }
 }

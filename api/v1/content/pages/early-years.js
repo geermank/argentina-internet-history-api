@@ -37,11 +37,11 @@ export default function handler(req, res) {
                 timeline(
                     [
                         timelineMilestone("1987", "First international email connection"),
-                        timelineMilestone("1990", "First TCP/IP Internet connection"),
+                        timelineMilestone("First TCP/IP Internet connection", "1990"),
                         timelineMilestone("1993", "Creation of RETINA network"),
-                        timelineMilestone("1994", "First submarine fiber-optic cable and digital connection"),
+                        timelineMilestone("First submarine fiber-optic cable and digital connection", "1994"),
                         timelineMilestone("1995", "Internet access goes commercial"),
-                        timelineMilestone("1997", "National interest declaration and broadband launch"),
+                        timelineMilestone("National interest declaration and broadband launch", "1997"),
                         timelineMilestone("2000", "Rise of free ISPs"),
                     ]
                 ),

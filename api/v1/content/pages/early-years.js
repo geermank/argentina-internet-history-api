@@ -1,6 +1,7 @@
 import { sduiResponse } from "../../sdui/response";
 import { navBar, navBarLink } from "../../sdui/components/navigation/navbar";
 import { title, paragraph } from "../../sdui/components/text/text"
+import { Space, verticalSpace } from "../../sdui/components/spacing/verticalSpace";
 
 export default function handler(req, res) {
     const firstParagraph = "Even though our journey starts in 1994, we have to first go a bit back in time. In particular to the year 1987, " +
@@ -24,7 +25,9 @@ export default function handler(req, res) {
                     ]
                 ),
                 title("Early years"),
-                paragraph(firstParagraph)
+                paragraph(firstParagraph),
+                verticalSpace(Space.Md),
+                title("Commercial connections")
             ]
         )
     );

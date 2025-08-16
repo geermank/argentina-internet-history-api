@@ -1,0 +1,46 @@
+import {
+    firstParagraph,
+    secondParagraph,
+    thirdParagraph,
+    fourthParagraph,
+    fifthParagrah,
+    sixthParagraph
+} from "./mass-adoption-strings"
+
+export default function handler(req, res) {
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.setHeader("Cache-Control", "s-maxage=3600, stale-while-revalidate");
+    res.status(200).json(
+        sduiResponse(
+            "Mass adoption",
+            [
+                navBar(
+                    "assets/logo.png",
+                    "The history of the Internet in Argentina",
+                    [
+                        navBarLink("Home", "index.html"),
+                        navBarLink("Early years", "early-years.html"),
+                        navBarLink("Modern era", "index.html")
+                    ]
+                ),
+                title("Mass adoption (2005 - 2015)"),
+                verticalSpace(Space.Sm),
+                subtitle("In a nutshell"),
+                timeline(
+                    [
+                        timelineMilestone("2007", "Launch of 3G"),
+                        timelineMilestone("2010", "Start of the Conectar Igualdad program"),
+                        timelineMilestone("2013", "Dial-up connections go virtually extinct"),
+                        timelineMilestone("2014", "Introduction of 4G LTE")
+                    ]
+                ),
+                paragraph(firstParagraph),
+                paragraph(secondParagraph),
+                paragraph(thirdParagraph),
+                paragraph(fourthParagraph),
+                paragraph(fifthParagrah),
+                paragraph(sixthParagraph)
+            ]
+        )
+    );
+}

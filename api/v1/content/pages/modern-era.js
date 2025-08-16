@@ -28,16 +28,14 @@ export default function handler(req, res) {
                         navBarLink("Mass adoption", "mass-adoption.html")
                     ]
                 ),
-                title("Mass adoption (2015 - 2025)"),
+                title("Modern era (2015 - 2025)"),
                 verticalSpace(Space.Sm),
                 subtitle("In a nutshell"),
                 timeline(
                     [
-                        timelineMilestone("1987", "First international email connection"),
-                        timelineMilestone("1993", "Creation of RETINA network"),
-                        timelineMilestone("1994", "First digital connection"),
-                        timelineMilestone("1995", "Internet access goes commercial"),
-                        timelineMilestone("2000", "Rise of free ISPs"),
+                        timelineMilestone("2023", "Deployment of 5G begins"),
+                        timelineMilestone("2024", "Fiber optic connections reach 4.8 millon subscribers"),
+                        timelineMilestone("2025", "90.1% of the population uses the Internet")
                     ]
                 ),
                 verticalSpace(Space.Md),

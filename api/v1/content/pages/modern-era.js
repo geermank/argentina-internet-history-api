@@ -9,7 +9,7 @@ import {
     fifthParagrah, 
     sixthParagraph
 } from "./modern-era-strings";
-import { SpaceSm, SpaceMd } from "../../sdui/components/spacing/verticalSpace";
+import { SpaceSm, SpaceMd } from "../../sdui/components/spacing/spacing";
 import { timeline, timelineMilestone } from "../../sdui/components/timeline/timeline";
 
 export default function handler(req, res) {

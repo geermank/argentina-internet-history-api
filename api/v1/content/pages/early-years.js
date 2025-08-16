@@ -12,7 +12,7 @@ import {
     eighthParagraph,
     ninthParagraph
 } from "./early-yeras-strings";
-import { SpaceSm } from "../../sdui/components/spacing/verticalSpace";
+import { SpaceSm } from "../../sdui/components/spacing/spacing";
 import { timeline, timelineMilestone } from "../../sdui/components/timeline/timeline";
 
 export default function handler(req, res) {

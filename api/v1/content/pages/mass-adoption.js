@@ -10,7 +10,7 @@ import {
 import { sduiResponse } from "../../sdui/response";
 import { navBar, navBarLink } from "../../sdui/components/navigation/navbar";
 import { title, subtitle, paragraph } from "../../sdui/components/text/text";
-import { SpaceSm, SpaceMd } from "../../sdui/components/spacing/verticalSpace";
+import { SpaceSm, SpaceMd } from "../../sdui/components/spacing/spacing";
 import { timeline, timelineMilestone } from "../../sdui/components/timeline/timeline";
 
 export default function handler(req, res) {

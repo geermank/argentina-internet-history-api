@@ -4,7 +4,8 @@ import {
     thirdParagraph,
     fourthParagraph,
     fifthParagrah,
-    sixthParagraph
+    sixthParagraph,
+    seventhParagraph
 } from "./mass-adoption-strings"
 
 export default function handler(req, res) {
@@ -31,7 +32,8 @@ export default function handler(req, res) {
                         timelineMilestone("2007", "Launch of 3G"),
                         timelineMilestone("2010", "Start of the Conectar Igualdad program"),
                         timelineMilestone("2013", "Dial-up connections go virtually extinct"),
-                        timelineMilestone("2014", "Introduction of 4G LTE")
+                        timelineMilestone("2014", "Introduction of 4G LTE"),
+                        timelineMilestone("2014", "Launch of ARSAT-1")
                     ]
                 ),
                 paragraph(firstParagraph),
@@ -39,7 +41,8 @@ export default function handler(req, res) {
                 paragraph(thirdParagraph),
                 paragraph(fourthParagraph),
                 paragraph(fifthParagrah),
-                paragraph(sixthParagraph)
+                paragraph(sixthParagraph),
+                paragraph(seventhParagraph)
             ]
         )
     );

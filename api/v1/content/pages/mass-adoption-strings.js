@@ -4,7 +4,8 @@ export {
     thirdParagraph,
     fourthParagraph,
     fifthParagrah,
-    sixthParagraph
+    sixthParagraph,
+    seventhParagraph
 }
 
 const firstParagraph =
@@ -40,3 +41,10 @@ const sixthParagraph =
     `In 2014, the Argentina Digital Law (Law 27.078) was enacted, declaring the development of information and communication technologies 
     to be of public interest. The law established network neutrality, universal access, and the obligation for the national communications 
     authority (ENACOM) to set minimum Internet speeds, guaranteeing quality service for all users.`
+
+const seventhParagraph =
+    `In October 2014, Argentina launched ARSAT-1, the country’s first geostationary telecommunications satellite, 
+    designed and built locally by INVAP and operated by ARSAT. This marked a historic achievement, making Argentina 
+    the first Latin American nation to develop and operate its own satellite of this kind. A year later, ARSAT-2 was 
+    launched, expanding coverage to the entire American continent. Together, these satellites reinforced national 
+    sovereignty in telecommunications and ensured greater autonomy in broadcasting, data transmission, and Internet services.`

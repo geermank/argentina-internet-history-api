@@ -29,7 +29,7 @@ export default function handler(req, res) {
                     ]
                 ),
                 title("Modern era (2015 - 2025)"),
-                verticalSpace(SpaceSm),
+                SpaceSm,
                 subtitle("In a nutshell"),
                 timeline(
                     [
@@ -38,7 +38,7 @@ export default function handler(req, res) {
                         timelineMilestone("2025", "90.1% of the population uses the Internet")
                     ]
                 ),
-                verticalSpace(SpaceMd),
+                SpaceMd,
                 paragraph(firstParagraph),
                 paragraph(secondParagraph),
                 paragraph(thirdParagraph),

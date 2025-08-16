@@ -32,7 +32,7 @@ export default function handler(req, res) {
                     ]
                 ),
                 title("Early years (1994 - 2005)"),
-                verticalSpace(SpaceSm),
+                SpaceSm,
                 subtitle("In a nutshell"),
                 timeline(
                     [
@@ -43,13 +43,13 @@ export default function handler(req, res) {
                         timelineMilestone("2000", "Rise of free ISPs"),
                     ]
                 ),
-                verticalSpace(SpaceSm),
+                SpaceSm,
                 subtitle("Laying the Foundations"),
                 paragraph(firstParagraph),
                 paragraph(secondParagraph),
                 paragraph(thirdParagraph),
                 paragraph(fourthParagraph),
-                verticalSpace(SpaceSm),
+                SpaceSm,
                 subtitle("Commercial connections and beyond"),
                 paragraph(fifthParagrah),
                 paragraph(sixthParagraph),

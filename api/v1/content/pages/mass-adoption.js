@@ -30,7 +30,7 @@ export default function handler(req, res) {
                     ]
                 ),
                 title("Mass adoption (2005 - 2015)"),
-                verticalSpace(SpaceSm),
+                SpaceSm,
                 subtitle("In a nutshell"),
                 timeline(
                     [
@@ -41,7 +41,7 @@ export default function handler(req, res) {
                         timelineMilestone("2014", "Launch of ARSAT-1")
                     ]
                 ),
-                verticalSpace(SpaceMd),
+                SpaceMd,
                 paragraph(firstParagraph),
                 paragraph(secondParagraph),
                 paragraph(thirdParagraph),

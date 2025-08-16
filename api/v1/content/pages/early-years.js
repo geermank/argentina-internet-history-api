@@ -12,7 +12,7 @@ import {
     eighthParagraph,
     ninthParagraph
 } from "./early-yeras-strings";
-import { verticalSpace, Space } from "../../sdui/components/spacing/verticalSpace";
+import { SpaceSm } from "../../sdui/components/spacing/verticalSpace";
 import { timeline, timelineMilestone } from "../../sdui/components/timeline/timeline";
 
 export default function handler(req, res) {
@@ -32,7 +32,7 @@ export default function handler(req, res) {
                     ]
                 ),
                 title("Early years (1994 - 2005)"),
-                verticalSpace(Space.Sm),
+                verticalSpace(SpaceSm),
                 subtitle("In a nutshell"),
                 timeline(
                     [
@@ -43,13 +43,13 @@ export default function handler(req, res) {
                         timelineMilestone("2000", "Rise of free ISPs"),
                     ]
                 ),
-                verticalSpace(Space.Sm),
+                verticalSpace(SpaceSm),
                 subtitle("Laying the Foundations"),
                 paragraph(firstParagraph),
                 paragraph(secondParagraph),
                 paragraph(thirdParagraph),
                 paragraph(fourthParagraph),
-                verticalSpace(Space.Sm),
+                verticalSpace(SpaceSm),
                 subtitle("Commercial connections and beyond"),
                 paragraph(fifthParagrah),
                 paragraph(sixthParagraph),

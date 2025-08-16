@@ -10,7 +10,7 @@ import {
 import { sduiResponse } from "../../sdui/response";
 import { navBar, navBarLink } from "../../sdui/components/navigation/navbar";
 import { title, subtitle, paragraph } from "../../sdui/components/text/text";
-import { verticalSpace, Space } from "../../sdui/components/spacing/verticalSpace";
+import { SpaceSm, SpaceMd } from "../../sdui/components/spacing/verticalSpace";
 import { timeline, timelineMilestone } from "../../sdui/components/timeline/timeline";
 
 export default function handler(req, res) {
@@ -30,7 +30,7 @@ export default function handler(req, res) {
                     ]
                 ),
                 title("Mass adoption (2005 - 2015)"),
-                verticalSpace(Space.Sm),
+                verticalSpace(SpaceSm),
                 subtitle("In a nutshell"),
                 timeline(
                     [
@@ -41,7 +41,7 @@ export default function handler(req, res) {
                         timelineMilestone("2014", "Launch of ARSAT-1")
                     ]
                 ),
-                verticalSpace(Space.Md),
+                verticalSpace(SpaceMd),
                 paragraph(firstParagraph),
                 paragraph(secondParagraph),
                 paragraph(thirdParagraph),

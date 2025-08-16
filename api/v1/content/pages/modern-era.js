@@ -9,7 +9,7 @@ import {
     fifthParagrah, 
     sixthParagraph
 } from "./modern-era-strings";
-import { verticalSpace, Space } from "../../sdui/components/spacing/verticalSpace";
+import { SpaceSm, SpaceMd } from "../../sdui/components/spacing/verticalSpace";
 import { timeline, timelineMilestone } from "../../sdui/components/timeline/timeline";
 
 export default function handler(req, res) {
@@ -29,7 +29,7 @@ export default function handler(req, res) {
                     ]
                 ),
                 title("Modern era (2015 - 2025)"),
-                verticalSpace(Space.Sm),
+                verticalSpace(SpaceSm),
                 subtitle("In a nutshell"),
                 timeline(
                     [
@@ -38,7 +38,7 @@ export default function handler(req, res) {
                         timelineMilestone("2025", "90.1% of the population uses the Internet")
                     ]
                 ),
-                verticalSpace(Space.Md),
+                verticalSpace(SpaceMd),
                 paragraph(firstParagraph),
                 paragraph(secondParagraph),
                 paragraph(thirdParagraph),

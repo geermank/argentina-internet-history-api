@@ -1,5 +1,3 @@
-// NOTE: we reach the maximum number of functions in premium plan,
-// so I had to replace this function by some objects 
 export const SpaceSm = {
     type: "space",
     data: {

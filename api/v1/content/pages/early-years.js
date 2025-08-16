@@ -1,6 +1,6 @@
 import { sduiResponse } from "../../sdui/response";
 import { navBar, navBarLink } from "../../sdui/components/navigation/navbar";
-import { title, subtitle, paragraph } from "../../sdui/components/text/text"
+import { title, subtitle, paragraph } from "../../sdui/components/text/text";
 import { 
     firstParagraph,
     secondParagraph,

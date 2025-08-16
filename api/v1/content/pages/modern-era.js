@@ -7,12 +7,9 @@ import {
     thirdParagraph, 
     fourthParagraph, 
     fifthParagrah, 
-    sixthParagraph, 
-    seventhParagraph, 
-    eighthParagraph,
-    ninthParagraph
-} from "./early-yeras-strings";
-import { SpaceSm } from "../../sdui/components/spacing/spacing";
+    sixthParagraph
+} from "./modern-era-strings";
+import { SpaceSm, SpaceMd } from "../../sdui/components/spacing/spacing";
 import { timeline, timelineMilestone } from "../../sdui/components/timeline/timeline";
 
 export default function handler(req, res) {
@@ -20,42 +17,34 @@ export default function handler(req, res) {
     res.setHeader("Cache-Control", "s-maxage=3600, stale-while-revalidate");
     res.status(200).json(
         sduiResponse(
-            "Early years",
+            "Modern era",
             [
                 navBar(
                     "assets/logo.png",
                     "The history of the Internet in Argentina",
                     [
                         navBarLink("Home", "index.html"),
-                        navBarLink("Mass adoption", "mass-adoption.html"),
-                        navBarLink("Modern era", "modern-era.html")
+                        navBarLink("Early years", "early-years.html"),
+                        navBarLink("Mass adoption", "mass-adoption.html")
                     ]
                 ),
-                title("Early years (1994 - 2005)"),
+                title("Modern era (2015 - 2025)"),
                 verticalSpace(SpaceSm),
                 subtitle("In a nutshell"),
                 timeline(
                     [
-                        timelineMilestone("1987", "First international email connection"),
-                        timelineMilestone("1993", "Creation of RETINA network"),
-                        timelineMilestone("1994", "First digital connection"),
-                        timelineMilestone("1995", "Internet access goes commercial"),
-                        timelineMilestone("2000", "Rise of free ISPs"),
+                        timelineMilestone("2023", "Deployment of 5G begins"),
+                        timelineMilestone("2024", "Fiber optic connections reach 4.8 millon subscribers"),
+                        timelineMilestone("2025", "90.1% of the population uses the Internet")
                     ]
                 ),
-                verticalSpace(SpaceSm),
-                subtitle("Laying the Foundations"),
+                verticalSpace(SpaceMd),
                 paragraph(firstParagraph),
                 paragraph(secondParagraph),
                 paragraph(thirdParagraph),
                 paragraph(fourthParagraph),
-                verticalSpace(SpaceSm),
-                subtitle("Commercial connections and beyond"),
                 paragraph(fifthParagrah),
-                paragraph(sixthParagraph),
-                paragraph(seventhParagraph),
-                paragraph(eighthParagraph),
-                paragraph(ninthParagraph)
+                paragraph(sixthParagraph)
             ]
         )
     );

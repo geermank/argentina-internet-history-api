@@ -41,6 +41,7 @@ export default function handler(req, res) {
                         timelineMilestone("2014", "Launch of ARSAT-1")
                     ]
                 ),
+                verticalSpace(Space.Md),
                 paragraph(firstParagraph),
                 paragraph(secondParagraph),
                 paragraph(thirdParagraph),

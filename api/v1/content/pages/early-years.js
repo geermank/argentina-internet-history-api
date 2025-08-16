@@ -26,9 +26,18 @@ export default function handler(req, res) {
                     "assets/logo.png",
                     "The history of the Internet in Argentina",
                     [
-                        navBarLink("Home", "index.html"),
-                        navBarLink("Mass adoption", "mass-adoption.html"),
-                        navBarLink("Modern era", "modern-era.html")
+                        {
+                            text: "Home",
+                            url: "index.html"
+                        },
+                        {
+                            text: "Mass adoption",
+                            url: "mass-adoption.html"
+                        },
+                        {
+                            text: "Modern era",
+                            url: "modern-era.html"
+                        }
                     ]
                 ),
                 title("Early years (1994 - 2005)"),

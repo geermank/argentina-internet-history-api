@@ -9,9 +9,10 @@ export function navBar(icon, title, links) {
     }
 }
 
-export function navBarLink(text, destination) {
-    return {
-        text: text,
-        url: destination
-    };
-}
+// had to remove this one due to free plan limitations
+//export function navBarLink(text, destination) {
+//    return {
+//        text: text,
+//        url: destination
+//    };
+//}

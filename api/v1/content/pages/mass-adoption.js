@@ -26,7 +26,7 @@ export default function handler(req, res) {
                     [
                         navBarLink("Home", "index.html"),
                         navBarLink("Early years", "early-years.html"),
-                        navBarLink("Modern era", "index.html")
+                        navBarLink("Modern era", "modern-era.html")
                     ]
                 ),
                 title("Mass adoption (2005 - 2015)"),
